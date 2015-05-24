@@ -1,8 +1,3 @@
----
-title: "Getting-and-Cleaning-Data-Course-Project"
-
----
-
 ## General details
 
 This project was created as per Coursera Specialization Course: Getting and Cleaning Data.
