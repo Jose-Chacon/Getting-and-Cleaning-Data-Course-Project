@@ -49,8 +49,7 @@ Variable names changes to improve readiness:
 	+ 6 to LAYING
 
 #4. Final result 
-     summary.txt :  create from data frame summary.set
- 
+summary.txt :  create from data frame summary.set
  
 #5.Variables in summary.txt
 Position|Name
