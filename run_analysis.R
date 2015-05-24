@@ -75,8 +75,8 @@ run_analysis <- function(){
      # Change gyro to indicate gyroscope
      names(join.xfile) <- sub(pattern = "gyro", replacement = "gyroscope", x = names(join.xfile))
      # Change activities numbers by names   
-     activities.names<-c("WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STANDING","LAYING")
-     join.xfile$activities<-activities.names[join.xfile$activities]
+     activity.names<-c("WALKING","WALKING_UPSTAIRS","WALKING_DOWNSTAIRS","SITTING","STANDING","LAYING")
+     join.xfile$activities<-activity.names[join.xfile$activities]
      
      # Create a secon data set only the measurements on the mean and standard deviation for each measurement. 
      
