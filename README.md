@@ -1,9 +1,6 @@
 ---
 title: "Getting-and-Cleaning-Data-Course-Project"
-output:
-  html_document:
-    toc: true
-    theme: united
+
 ---
 
 ## General details
