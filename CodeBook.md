@@ -1,9 +1,6 @@
 ---
 title: "CodeBook.MD"
-output:
-  html_document:
-    toc: true
-    theme: united
+
 ---
 
 #1. Following files needs to be read from fixed width format to data frames
