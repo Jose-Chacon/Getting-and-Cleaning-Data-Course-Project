@@ -1,6 +1,6 @@
 
 ===================================================
-				Transformations
+		Transformations
 ===================================================
 1. Following files needs to be read from fixed width format to data frames
 		X_test.txt : file with variables set every 16 characters (561 variables and 2947 observations)
