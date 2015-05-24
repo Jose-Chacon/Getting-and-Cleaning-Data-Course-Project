@@ -20,3 +20,5 @@ In this repo you will find:
 1.	README.MD : overview of work done
 2.	CookBook.txt: describes variables, data and transformations to clean original data
 3.	run_analysis.R: code with every single step to accomplish goals for this Project
+
+To execute the program just type from command line in R: run_analysis.R a data set summarised by Subject and Activity will be created.
