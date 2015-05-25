@@ -19,7 +19,7 @@ run_analysis <- function(){
      ## Read test data
      test.xfile <- read.fwf("./UCI HAR Dataset/test/X_test.txt", widths = column.length, header = FALSE)
      test.activities <- read.fwf("./UCI HAR Dataset/test/y_test.txt",  widths = 1, header = FALSE)
-     test.subject_test <- read.fwf("./UCI HAR Dataset/test/subject_test.txt",  widths = 1, header = FALSE)
+     test.subject_test <- read.fwf("./UCI HAR Dataset/test/subject_test.txt",  widths = 2, header = FALSE)
      ## Add column to identify records from test
      test.xfile <- mutate(test.xfile,sourcefile = "test")
      
@@ -27,7 +27,7 @@ run_analysis <- function(){
      ## Read train data
      train.xfile <- read.fwf("./UCI HAR Dataset/train/X_train.txt", widths = column.length, header = FALSE)
      train.activities <- read.fwf("./UCI HAR Dataset/train/y_train.txt",  widths = 1, header = FALSE)
-     train.subject_test <- read.fwf("./UCI HAR Dataset/train/subject_train.txt",  widths = 1, header = FALSE)
+     train.subject_test <- read.fwf("./UCI HAR Dataset/train/subject_train.txt",  widths = 2, header = FALSE)
      ## Add column to identify records from train
      train.xfile <- mutate(train.xfile,sourcefile = "train")
      
@@ -42,7 +42,7 @@ run_analysis <- function(){
      join.subject <- rbind(test.subject_test, train.subject_test)
      
      ## Create a single file finally adding the activities and subject
-     join.xfile <- cbind(join.xfile,join.activities,join.subject)
+     join.xfile <- cbind(join.xfile,join.subject, join.activities)
      
      ## Add column names to resulting file from test and train
      
