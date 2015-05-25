@@ -41,17 +41,16 @@ Variable names changes to improve readiness:
 * names containing "mag", "acc" was replaced by "magnitude"
 * names containing "gyro", "acc" was replaced by "gyroscope"
 * numbers in activity were change as follows:
-     + 1 to WALKING
+     	+ 1 to WALKING
 	+ 2 to WALKING_UPSTAIRS
 	+ 3 to WALKING_DOWNSTAIRS
 	+ 4 to SITTING
 	+ 5 to STANDING
 	+ 6 to LAYING
 
-#4. Final result 
-     summary.txt :  create from data frame summary.set
- 
- 
+#4. Final result
+	summary.txt :  create from data frame summary.set
+	
 #5.Variables in summary.txt
 Position|Name
 ----------|---------------------------------------------
